@@ -2,7 +2,7 @@
 
 Neste repositório estão contidos todos os arquivos para o desenvolvimento de um projeto para criação das imagens dos contêineres e serviços necessários para colocar uma aplicação em produção num cluster kubernetes. O serviço de nuvem utilizado foi o Google Cloud Plataform (GCP).
 
-## Descrição de conteúdo
+## Descrição de Conteúdo
 
 1. Pasta *backend*: Contém um *dockerfile* para construção de uma imagem *docker* do *php-apache* para conexão do *frontend* a um banco de dados *mysql* que fará a persistência dos dados a partir da aplicativo;
 
