@@ -2,7 +2,7 @@
 
 Neste repositório estão contidos todos os arquivos para o desenvolvimento de um projeto para criação das imagens dos contêineres e serviços necessários para colocar uma aplicação em produção num cluster kubernetes. O serviço de nuvem utilizado foi o Google Cloud Plataform (GCP).
 
-## Descrição de conteúdo
+## Descrição de Conteúdo
 
 1. Pasta *backend*: Contém um *dockerfile* para construção de uma imagem *docker* do *php-apache* para conexão do *frontend* a um banco de dados *mysql* que fará a persistência dos dados a partir da aplicativo;
 
@@ -12,7 +12,7 @@ Neste repositório estão contidos todos os arquivos para o desenvolvimento de u
 
 4. *services.yml*: Implementa a criação os serviços de *load balancer* e a conexão com o banco de dados *mysql* no cluster kubernetes;
 
-5. *script.bat* (Windows) ou *script.sh* (Linux): *script* para implementação do projeto incluido as seguintes etapas:
+5. *script.bat* (Windows) ou *script.sh* (Linux): *script* para implementação do projeto incluindo as seguintes etapas:
     * Criação das imagens *docker*;
     * Envio das imagens *docker* para o *Docker Hub*;
     * Criação dos serviços no cluster kubernetes; e
